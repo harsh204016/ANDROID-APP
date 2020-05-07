@@ -22,10 +22,10 @@ import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String MODEL_PATH = "skin_model.tflite";
+    private static final String MODEL_PATH = "skin_model2.tflite";
     private static final boolean QUANT = false;
-    private static final String LABEL_PATH = "label.txt";
-    private static final int INPUT_SIZE = 224;
+    private static final String LABEL_PATH = "labels2.txt";
+    private static final int INPUT_SIZE = 240;
 
     private Classifier classifier;
 
